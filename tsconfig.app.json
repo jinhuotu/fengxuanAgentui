@@ -6,6 +6,9 @@
     // Extra safety for array and object lookups, but may have false positives.
     "noUncheckedIndexedAccess": true,
 
+    // 路由、接口和 store 按约定写在 .js 里，入口仍是 TypeScript。
+    "allowJs": true,
+
     // Path mapping for cleaner imports.
     "paths": {
       "@/*": ["./src/*"]

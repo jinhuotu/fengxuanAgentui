@@ -1,11 +1,10 @@
 <script setup lang="ts"></script>
 
 <template>
-  <h1>You did it!</h1>
-  <p>
-    Visit <a href="https://vuejs.org/" target="_blank" rel="noopener">vuejs.org</a> to read the
-    documentation
-  </p>
+  <router-view />
 </template>
 
-<style scoped></style>
+<style>
+/* 全局基础样式已在 src/styles/theme.css 中统一维护，
+   这里不再重复定义，避免变量覆盖层级混乱。 */
+</style>
